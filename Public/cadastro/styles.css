@@ -5,9 +5,9 @@
 }
 
 :root {
-    --primary-color: #6366f1;
-    --primary-dark: #4f46e5;
-    --primary-light: #818cf8;
+    --primary-color: #004990;
+    --primary-dark: #004990;
+    --primary-light: #004990;
     --secondary-color: #ec4899;
     --success-color: #10b981;
     --error-color: #ef4444;
@@ -27,7 +27,7 @@
 
 body {
     font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, 'Helvetica Neue', Arial, sans-serif;
-    background: linear-gradient(135deg, #667eea 0%, #764ba2 100%);
+    background: linear-gradient(135deg, #004990 0%, #065cb3 100%);
     min-height: 100vh;
     display: flex;
     align-items: center;
@@ -49,7 +49,7 @@ body {
 
 .forms-container {
     flex: 1;
-    padding: 60px 50px;
+    padding: 30px 40px;
     overflow-y: auto;
 }
 
@@ -355,8 +355,8 @@ body {
 
 /* Side Panel */
 .side-panel {
-    flex: 0 0 45%;
-    background: linear-gradient(135deg, #667eea 0%, #764ba2 100%);
+    flex: 0 0 35%;
+    background: linear-gradient(135deg, #004990 0%, #0961b9 100%);
     color: white;
     padding: 60px 50px;
     display: flex;
